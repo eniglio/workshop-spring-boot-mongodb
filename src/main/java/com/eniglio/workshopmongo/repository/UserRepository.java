@@ -10,6 +10,6 @@ import com.eniglio.workshopmongo.domain.User;
 @Repository
 public interface UserRepository extends MongoRepository<User, String> {
 
-	
+	List<User> findAll();
 	
 }
